@@ -1,5 +1,6 @@
 {
   "vsicons.presets.angular": true,
+  "files.autoSave": "off",
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
