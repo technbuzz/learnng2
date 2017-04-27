@@ -3,6 +3,8 @@ import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from "./component.app";
+import { ArtistItemComponent } from "./component.artist-item";
+import { ArtistDetailsComponent } from "./component.artist-details";
 
 @NgModule({
   imports: [ // imports features that we gonna need 
@@ -11,9 +13,9 @@ import { AppComponent } from "./component.app";
   ],
   declarations: [ //view classes that belongs to this module, it allows us to import all the modules that 
   // we have in our application
-    AppComponent
+    AppComponent, ArtistItemComponent, ArtistDetailsComponent
   ],
-  bootstrap: [ // main container of your entire application
+  bootstrap: [ // main container of your entire application,root component
     AppComponent
   ]
 })
